@@ -6,25 +6,20 @@ export const LinkData = [
   },
   {
     id: 2,
-    title: "About",
-    url: "/about",
-  },
-  {
-    id: 3,
     title: "courses",
     url: "/courses",
   },
   {
-    id: 4,
+    id: 3,
     title: "Instructor",
     url: "/instructor",
   },
   {
-    id: 5,
+    id: 4,
     title: "blog",
     url: "/blog",
   },
-]
+];
 export const courses = [
   {
     id: 1,
@@ -56,4 +51,4 @@ export const courses = [
     cover: "../images/course12.jpg",
     title: "The business Intelligence analyst Course 2022",
   },
-]
+];
