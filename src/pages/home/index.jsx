@@ -9,8 +9,6 @@ const Home = () => {
       <Header />
       <Products />
       <Courses />
-      {/* <Instructor /> */}
-      <Blog />
     </>
   );
 };
