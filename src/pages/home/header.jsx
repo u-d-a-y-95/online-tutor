@@ -8,17 +8,17 @@ import { Pill } from "./pill";
 export const Header = () => {
   return (
     <>
-      <section className="bg-red-50 py-10 h-[92vh] md:h-full">
-        <div className="container">
-          <div className="flex items-center justify-center md:flex-col gap-3">
-            <div className="left w-1/2 text-black md:w-full">
-              <h1 className="text-4xl leading-tight text-black font-semibold ">
+      <section className="bg-red-50 py-10 md:h-full">
+        <div className="container mx-auto">
+          <div className="flex flex-col justify-center items-center md:flex-row  gap-3">
+            <div className="left sm:w-1/2 text-black md:w-full px-6">
+              <h1 className="text-2xl sm:text-4xl leading-tight text-black font-semibold ">
                 Learn <span className="text-red-600">Anything</span>
               </h1>
-              <h1 className="inline-block text-4xl leading-tight mt-2 font-semibold bg-red-600 px-4 text-white">
+              <h1 className="inline-block text-2xl sm:text-4xl leading-tight mt-2 font-semibold bg-red-600 px-4 text-white">
                 Anytime
               </h1>
-              <h3 className="text-lg mt-3">
+              <h3 className="text-base mt-3">
                 Unlimited access to all 60+ instructors.
               </h3>
               <span className="text-[14px]">
@@ -27,7 +27,7 @@ export const Header = () => {
 
               <div className="relative text-gray-600 focus-within:text-gray-400 mt-5">
                 <input
-                  className="py-3 text-sm  bg-white rounded-md pl-10 focus:outline-none w-full max-w-[80%]"
+                  className="py-3 text-sm  bg-white rounded-md pl-10 focus:outline-none w-full sm:max-w-[80%]"
                   placeholder="Search..."
                   autocomplete="off"
                 />
@@ -41,13 +41,8 @@ export const Header = () => {
                 </span>
               </div>
             </div>
-            <div className="right w-1/2 md:w-full relative">
-              <div className="images relative">
-                <img
-                  src={heroImgback}
-                  alt=""
-                  className=" absolute top-32 left-10 w-96 md:left-10"
-                />
+            <div className="right sm:w-1/2 md:w-full relative">
+              <div className="images relative w-64 sm:w-2/3">
                 <div className="img h-[85vh] w-full">
                   <img
                     src={heroImg}
@@ -61,7 +56,7 @@ export const Header = () => {
                   icon={<BsFillLightningChargeFill size={25} />}
                   title="Congrstulations"
                   subtitle="Your admission completed"
-                  classNames="left-12 top-60"
+                  classNames="left-12 top-60 sm:left-0 "
                   color="#fb923c"
                 />
                 <Pill
@@ -78,7 +73,6 @@ export const Header = () => {
                   subtitle="Assisted Student"
                   classNames="left-1/4 bottom-16 min-w-[200px]"
                   color="#60a5fa"
-                  className=" -left-1/2"
                 />
               </div>
             </div>

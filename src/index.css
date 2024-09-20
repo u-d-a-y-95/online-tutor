@@ -14,10 +14,6 @@ body {
   color: #6d6e75;
   text-transform: capitalize;
 }
-.container {
-  max-width: 70%;
-  margin: auto;
-}
 
 ul,
 li,

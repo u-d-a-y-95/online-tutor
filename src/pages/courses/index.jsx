@@ -18,7 +18,7 @@ const Courses = () => {
               help.
             </span>
           </div>
-          <div className="grid grid-cols-3 gap-8 md:grid-cols-1">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
             {courses.map((item, index) => (
               <CourseCard key={index} {...item} />
             ))}
