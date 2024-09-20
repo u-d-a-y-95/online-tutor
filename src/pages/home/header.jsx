@@ -2,7 +2,6 @@ import { BsFillLightningChargeFill } from "react-icons/bs";
 import { FaGraduationCap, FaUsers } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
 import heroImg from "../../components/assets/images/hero.png";
-import heroImgback from "../../components/assets/images/hero-shape-purple.png";
 import { Pill } from "./pill";
 
 export const Header = () => {
